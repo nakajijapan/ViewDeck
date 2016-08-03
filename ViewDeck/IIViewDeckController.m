@@ -797,6 +797,7 @@ static NSTimeInterval durationToAnimate(CGFloat pointsToAnimate, CGFloat velocit
     self.centerView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.centerView.autoresizesSubviews = YES;
     self.centerView.clipsToBounds = YES;
+    self.centerView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.centerView];
     
     self.originalShadowRadius = 0;
